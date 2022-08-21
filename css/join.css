@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+.spbg {
+    background-image: url(../images/spimg.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#joinsection {
+    padding-top: 106px;
+    background: #eef5fc;
+}
+
+#joinsection .inner {
+    padding: 100px 0; 
+    background: #eef5fc;
+}
+
+#joinsection form {
+    width: 35%;
+    margin: 0 auto;
+}
+
+#joinsection h2 {
+    padding: 30px 0;
+    font-size: 30px;
+    color: #282866;
+    text-align: center;
+}
+
+#joinsection h2 span {
+    width: 14px;
+    height: 14px;
+    background-position: -78px -29px;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+#joinsection .text {
+    display: block;
+}
+
+#joinsection .text .idimage {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/spimg.png);
+    background-repeat: no-repeat;
+    background-position: -26px -52px;
+    vertical-align: middle;
+}
+
+#joinsection .text .pwimage {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/spimg.png);
+    background-repeat: no-repeat;
+    background-position: -47px -52px;
+    vertical-align: middle;
+}
+
+#joinsection .text .pwokimage {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/spimg.png);
+    background-repeat: no-repeat;
+    background-position: -68px -52px;
+    vertical-align: middle;
+}
+
+#joinsection .text .nameimage {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/spimg.png);
+    background-repeat: no-repeat;
+    background-position: -26px -73px;
+    vertical-align: middle;
+}
+
+#joinsection .text .telimage {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/spimg.png);
+    background-repeat: no-repeat;
+    background-position: -47px -73px;
+    vertical-align: middle;
+}
+
+#joinsection .text input {
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+#joinsection .text span {
+    opacity: 0;
+    transition: all 1s;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#joinsection .text input:focus {
+    background: #fff;
+    border: none;
+    border-bottom: 3px solid #282866;
+    outline: none;
+}
+
+#joinsection .text input:focus~span {
+    opacity: 1;
+}
+
+#joinsection .text #buttoncheak {
+    padding: 10px;
+    background: #282866;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#joinsection .text #buttoncheak:focus {
+    background: #b0b0b0;
+    color: #000;
+}
+
+#joinsection .text span {
+    display: block;
+}
+
+#joinsection .area .interest {
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+#joinsection .area .gender {
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+#joinsection .area .email {
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+#joinsection .area .file {
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+#joinsection .area .memo {
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+#joinsection .area .memo textarea {
+    vertical-align: top;
+}
+
+#joinsection .interest input {
+    display: none;
+}
+
+#joinsection .interest label {
+    display: inline-block;
+    height: 18px;
+    margin-right: 10px;
+}
+
+#joinsection .interest label span {
+    width: 18px;
+    height: 18px;
+    background-position: -2px -2px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#joinsection .interest input:checked+label>span {
+    background-position: -22px -2px;
+}
+
+#joinsection .gender input {
+    display: none;
+}
+
+#joinsection .gender label {
+    display: inline-block;
+    height: 18px;
+    margin-right: 10px;
+}
+
+#joinsection .gender label span {
+    width: 18px;
+    height: 18px;
+    background-position: -23px -27px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#joinsection .gender input:checked+label>span {
+    background-position: -2px -27px;
+}
+
+#joinsection .area .buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#joinsection .area .buttons #btok {
+    padding: 10px;
+    background: #282866;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#joinsection .area .buttons #btok:focus {
+    background: #b0b0b0;
+    color: #000;
+}
+
+#joinsection .area .buttons #btno {
+    padding: 10px;
+    background: #282866;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#joinsection .area .buttons #btno:focus {
+    background: #b0b0b0;
+    color: #000;
+}

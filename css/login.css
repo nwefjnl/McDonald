@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+.spbg {
+    background-image: url(../images/spimg.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#loginsection {
+    padding-top: 106px;
+}
+
+#loginsection {
+    padding: 200px 0;
+    background: #eef5fc;
+    text-align: center;
+}
+
+#loginsection h2 {
+    padding: 20px 0;
+    font-size: 30px;
+    color: #282866;
+}
+
+#loginsection h2 span {
+    width: 14px;
+    height: 14px;
+    background-position: -78px -29px;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+#loginsection h2::before {
+    content: '';
+    background: #282866;
+    width: 10px;
+    height: 3px;
+}
+
+#loginsection input {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-bottom: 3px solid #282866;
+    outline: none;
+}
+
+#loginsection .text span {
+    font-size: 12px;
+    display: block;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+#loginsection .text input:focus+span {
+    opacity: 1;
+}
+
+#loginsection #buttonbox {
+    padding: 30px 80px;
+    margin: 10px 0 30px 0;
+    background: #282866;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#loginsection #buttonbox:focus {
+    background: #b0b0b0;
+    color: #000;
+}
+
+#loginsection .snsologin .facebook span {
+    width: 47px;
+    height: 47px;
+    background-position: -102px -112px;
+    vertical-align: middle;
+}
+
+#loginsection .snsologin .kakao span {
+    width: 47px;
+    height: 47px;
+    background-position: -52px -112px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+#loginsection .snsologin .naver span {
+    width: 47px;
+    height: 47px;
+    background-position: -2px -112px;
+    vertical-align: middle;
+}

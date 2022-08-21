@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+.inner { max-width:1203px; margin:0 auto; padding: 0 10px;}
+
+#header {
+    height: 130px;
+    background:#fff;
+    
+}
+
+#header h1 { 
+    float:left;
+    margin-top:20px;
+}
+#header:hover{
+    border-bottom:1px solid #000;
+    
+    
+}
+
+#header .membership {
+    float:right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    z-index:99999;
+    padding:53px 50px;
+    
+}
+#header .membership a {
+    padding:0 10px;
+}
+#header .search { 
+    float:right;
+    margin:40px 0px;
+    font-size:35px;
+}
+#nav {
+    float: left;
+    margin-left:50px;
+    }
+
+
+#nav .depth1 > li { 
+    float:left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:600px;
+    position: relative;
+}
+
+#nav .depth1 > li > a { 
+    font-size:21px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:60px;
+    padding: 52px 50px;
+    display: block;
+}
+#nav .depth1 > li:hover .depth2 a {
+    color:#000;
+}
+
+#nav .depth2 {
+    padding:20px 0px;
+    position:absolute; 
+    width: 100%;
+    top:100%;
+    left: 0;
+    display:none;
+    z-index:999999;
+    
+}
+
+    
+#nav .depth1:hover > li .depth2 {
+    display:block;
+}
+
+#nav .depth2 >  li  > a  {
+    font-size:16px;
+    font-weight:bold;
+    color:gray;
+    margin-top:20px;
+    padding-bottom:2px solid #000;
+}
+#nav .depth2 li:hover a {
+    color:#000;
+    border-bottom:2px solid #000;
+}
+#footer {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    background: #292929;
+}
+#footer .contact {padding:100px 0 15px;}
